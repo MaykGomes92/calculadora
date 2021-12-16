@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #091921;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 120px;
+    right: 940px;
+    width: 300px;
+    height: 300px;
+    clip-path: circle();
+    background: linear-gradient(#e91e63,#ffc107);
+    filter: brightness(90px);
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    top: 520px;
+    right: 540px;
+    width: 300px;
+    height: 300px;
+    clip-path: circle();
+    background: linear-gradient(#4D4DFF,#e91e63);
+    filter: brightness(90px);
+}
+
+.calculadora{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    position: relative;
+    z-index: inherit;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    padding-right: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    background: rgba(119, 37, 37, 0.05);
+    border-radius: 6px;
+    color: whitesmoke;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.btn-eq{
+    background-color: rgba(65, 105, 225, 0.205);
+}
+
+.btn-eq:hover{
+    background-color: rgb(58, 88, 179);
+}
