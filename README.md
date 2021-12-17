@@ -7,6 +7,6 @@ Uma calculadora personalizada, feita em JS!
 
 ## Tecnologias Usadas
 
-* Html
-* Css
-* JavaScript
+![html5-github](https://user-images.githubusercontent.com/77819811/145780100-2082102a-c849-43ad-8c8a-6e4aba4c93f2.png)
+![css3-github](https://user-images.githubusercontent.com/77819811/145780205-4b7260de-2ca6-4294-9220-fd8d71a4ec62.png)
+![js-git](https://user-images.githubusercontent.com/77819811/146499840-7f25e1ad-3b58-44e4-9478-7b8bc0975647.png)
