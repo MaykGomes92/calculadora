@@ -103,3 +103,22 @@ h1{
 .btn-eq:hover{
     background-color: rgb(58, 88, 179);
 }
+
+@media (max-width: 500px){
+    body::after{
+        top: 20px;
+        left: -100px;
+        opacity: 0.6;
+    }
+
+    body::before{
+        top: 400px;
+        right: -100px;
+        opacity: 0.6;
+    }
+
+    h1{
+        color: whitesmoke;
+        z-index: 44;
+    }
+}
