@@ -1,4 +1,4 @@
-# Sobre o Projeto
+# Sobre o Projeto !
 
 Uma calculadora personalizada, feita em JS!
 
