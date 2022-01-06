@@ -5,6 +5,7 @@ Uma calculadora personalizada, feita em JS!
 ![calc](https://user-images.githubusercontent.com/77819811/146445139-81dd98c0-8880-4af4-a01d-8e63aca9c7f5.jpg)
 
 * Utilização de Media Queries para deixar responsiva, funcionando e se adaptando a diversos dispositivos móveis.
+* Funcionando também o touch para celular!
 
 ## Tecnologias Usadas
 
