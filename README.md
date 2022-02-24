@@ -7,6 +7,11 @@ Uma calculadora personalizada, feita em JS!
 * Utilização de Media Queries para deixar responsiva, funcionando e se adaptando a diversos dispositivos móveis.
 * Funcionando também o touch para celular!
 
+## Responsividade
+
+![image](https://user-images.githubusercontent.com/77819811/155463301-54822646-9551-4511-98b1-96031e45a5d0.png)
+
+
 ## Tecnologias Usadas
 
 ![html5-github](https://user-images.githubusercontent.com/77819811/145780100-2082102a-c849-43ad-8c8a-6e4aba4c93f2.png)
